@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <ul>
+      <li><a href="intex.html">Batman</a></li>
+      <li><a href="intex2.html">Spiderman</a></li>
+      <li><a href="formulario.html">Formulario</a></li>
+    </ul>
+    <hr />
+    <h1>Formulario</h1>
+
+    <form>
+      <fieldset>DATOS Personales 
+
+        <label for="nombre">NOMBRE</label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          style="color: blue"
+        /><br /><br /><br />
+        <label>CORREO</label>
+        <input type="email" name="email" /> <br /><br /><br />
+
+        <label for="lenguaje">Escoja el lenguaje</label>
+        <select id="lenguaje" name="lenguaje" size="2">
+          <option>CSS</option>
+          <option>HTML</option>
+          <option>JAVASCRIPT</option>
+        </select>
+
+        <labe>Descripcion</labe>
+        <textarea></textarea> <br /><br />
+
+        <label for="niveles">Nivel</label>
+        <input list="niveles" />
+        <datalist id="niveles">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </datalist>
+        <br /><br />
+
+        <button
+          type="button"
+          onclick="alert('hola, soy arianna')"
+          value="enviar"
+        >
+          Enviar
+        </button>
+      </fieldset>
+      <input type="date" />
+    </form>
+  </body>
+</html>
